@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "dashboard",
+      "type": "text",
+      "x": 50,
+      "y": 50,
+      "width": 180,
+      "height": 100,
+      "text": "# Dashboard\nNext.js web application for business management\n**Technology:** Next.js, React, TypeScript",
+      "pv": {
+        "nodeType": "frontend",
+        "shape": "rectangle",
+        "fill": "#3B82F6",
+        "stroke": "#1D4ED8",
+        "icon": "Monitor",
+        "sources": ["apps/dashboard/src/**"]
+      }
+    },
+    {
+      "id": "desktop",
+      "type": "text",
+      "x": 50,
+      "y": 180,
+      "width": 180,
+      "height": 100,
+      "text": "# Desktop App\nTauri-based desktop application\n**Technology:** Tauri, React, TypeScript",
+      "pv": {
+        "nodeType": "frontend",
+        "shape": "rectangle",
+        "fill": "#3B82F6",
+        "stroke": "#1D4ED8",
+        "icon": "Computer",
+        "sources": ["apps/desktop/src/**"]
+      }
+    },
+    {
+      "id": "website",
+      "type": "text",
+      "x": 50,
+      "y": 310,
+      "width": 180,
+      "height": 100,
+      "text": "# Marketing Website\nPublic marketing and documentation site\n**Technology:** Next.js, React",
+      "pv": {
+        "nodeType": "frontend",
+        "shape": "rectangle",
+        "fill": "#3B82F6",
+        "stroke": "#1D4ED8",
+        "icon": "Globe",
+        "sources": ["apps/website/src/**"]
+      }
+    },
+    {
+      "id": "api",
+      "type": "text",
+      "x": 300,
+      "y": 115,
+      "width": 180,
+      "height": 100,
+      "text": "# API Server\nMain backend API with tRPC and Hono\n**Technology:** Bun, tRPC, Hono",
+      "pv": {
+        "nodeType": "backend",
+        "shape": "rectangle",
+        "fill": "#10B981",
+        "stroke": "#047857",
+        "icon": "Server",
+        "sources": ["apps/api/src/**"]
+      }
+    },
+    {
+      "id": "engine",
+      "type": "text",
+      "x": 550,
+      "y": 115,
+      "width": 180,
+      "height": 100,
+      "text": "# Engine Service\nCloudflare Workers service for business logic\n**Technology:** Cloudflare Workers, Hono",
+      "pv": {
+        "nodeType": "backend",
+        "shape": "rectangle",
+        "fill": "#10B981",
+        "stroke": "#047857",
+        "icon": "Cpu",
+        "sources": ["apps/engine/src/**"]
+      }
+    },
+    {
+      "id": "jobs",
+      "type": "text",
+      "x": 300,
+      "y": 245,
+      "width": 180,
+      "height": 100,
+      "text": "# Background Jobs\nTrigger.dev based background job processing\n**Technology:** Trigger.dev",
+      "pv": {
+        "nodeType": "worker",
+        "shape": "rectangle",
+        "fill": "#EF4444",
+        "stroke": "#B91C1C",
+        "icon": "Activity",
+        "sources": ["packages/jobs/src/**"]
+      }
+    },
+    {
+      "id": "worker",
+      "type": "text",
+      "x": 550,
+      "y": 245,
+      "width": 180,
+      "height": 100,
+      "text": "# Worker Service\nAdditional worker service for specific tasks\n**Technology:** Bun, Cloudflare",
+      "pv": {
+        "nodeType": "worker",
+        "shape": "rectangle",
+        "fill": "#EF4444",
+        "stroke": "#B91C1C",
+        "icon": "Zap",
+        "sources": ["apps/worker/src/**"]
+      }
+    },
+    {
+      "id": "database",
+      "type": "text",
+      "x": 800,
+      "y": 180,
+      "width": 180,
+      "height": 100,
+      "text": "# PostgreSQL\nPrimary database with Drizzle ORM\n**Technology:** PostgreSQL, Drizzle ORM",
+      "pv": {
+        "nodeType": "database",
+        "shape": "rectangle",
+        "fill": "#8B5CF6",
+        "stroke": "#6D28D9",
+        "icon": "Database",
+        "sources": ["packages/db/src/**"]
+      }
+    },
+    {
+      "id": "supabase",
+      "type": "text",
+      "x": 800,
+      "y": 50,
+      "width": 180,
+      "height": 100,
+      "text": "# Supabase\nBackend-as-a-Service for auth and storage\n**Technology:** Supabase",
+      "pv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "fill": "#6B7280",
+        "stroke": "#374151",
+        "icon": "Cloud"
+      }
+    },
+    {
+      "id": "packages",
+      "type": "text",
+      "x": 425,
+      "y": 375,
+      "width": 180,
+      "height": 100,
+      "text": "# Shared Packages\nMonorepo shared libraries\n**Technology:** TypeScript",
+      "pv": {
+        "nodeType": "package",
+        "shape": "rectangle",
+        "fill": "#F59E0B",
+        "stroke": "#D97706",
+        "icon": "Package",
+        "sources": ["packages/*/src/**"]
+      }
+    },
+    {
+      "id": "plaid",
+      "type": "text",
+      "x": 800,
+      "y": 310,
+      "width": 180,
+      "height": 80,
+      "text": "# Plaid API\nFinancial data integration",
+      "pv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "fill": "#6B7280",
+        "stroke": "#374151",
+        "icon": "CreditCard"
+      }
+    },
+    {
+      "id": "openai",
+      "type": "text",
+      "x": 1050,
+      "y": 115,
+      "width": 180,
+      "height": 80,
+      "text": "# OpenAI\nAI services and embeddings",
+      "pv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "fill": "#6B7280",
+        "stroke": "#374151",
+        "icon": "Bot"
+      }
+    },
+    {
+      "id": "trigger",
+      "type": "text",
+      "x": 1050,
+      "y": 245,
+      "width": 180,
+      "height": 80,
+      "text": "# Trigger.dev\nJob scheduling and execution platform",
+      "pv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "fill": "#6B7280",
+        "stroke": "#374151",
+        "icon": "Clock"
+      }
+    },
+    {
+      "id": "resend",
+      "type": "text",
+      "x": 1050,
+      "y": 375,
+      "width": 180,
+      "height": 80,
+      "text": "# Resend\nEmail delivery service",
+      "pv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "fill": "#6B7280",
+        "stroke": "#374151",
+        "icon": "Mail"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "dashboard-api",
+      "fromNode": "dashboard",
+      "toNode": "api",
+      "label": "tRPC",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "desktop-api",
+      "fromNode": "desktop",
+      "toNode": "api",
+      "label": "API",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "api-database",
+      "fromNode": "api",
+      "toNode": "database",
+      "label": "Drizzle ORM",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "engine-database",
+      "fromNode": "engine",
+      "toNode": "database",
+      "label": "Database",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "api-supabase",
+      "fromNode": "api",
+      "toNode": "supabase",
+      "label": "Auth & Storage",
+      "pv": {
+        "edgeType": "auth"
+      }
+    },
+    {
+      "id": "dashboard-supabase",
+      "fromNode": "dashboard",
+      "toNode": "supabase",
+      "label": "Client Auth",
+      "pv": {
+        "edgeType": "auth"
+      }
+    },
+    {
+      "id": "engine-plaid",
+      "fromNode": "engine",
+      "toNode": "plaid",
+      "label": "Bank Data",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "api-openai",
+      "fromNode": "api",
+      "toNode": "openai",
+      "label": "AI Features",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "jobs-database",
+      "fromNode": "jobs",
+      "toNode": "database",
+      "label": "Job Data",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "api-jobs",
+      "fromNode": "api",
+      "toNode": "jobs",
+      "label": "Triggers",
+      "pv": {
+        "edgeType": "event"
+      }
+    },
+    {
+      "id": "jobs-resend",
+      "fromNode": "jobs",
+      "toNode": "resend",
+      "label": "Email",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "jobs-trigger",
+      "fromNode": "jobs",
+      "toNode": "trigger",
+      "label": "Execution",
+      "pv": {
+        "edgeType": "api"
+      }
+    },
+    {
+      "id": "api-packages",
+      "fromNode": "api",
+      "toNode": "packages",
+      "label": "Libraries",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "dashboard-packages",
+      "fromNode": "dashboard",
+      "toNode": "packages",
+      "label": "Components",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "engine-packages",
+      "fromNode": "engine",
+      "toNode": "packages",
+      "label": "Utilities",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    }
+  ],
+  "pv": {
+    "name": "Midday Architecture",
+    "version": "1.0.0",
+    "description": "Complete system architecture for Midday business management platform"
+  }
+}

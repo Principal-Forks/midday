@@ -1,0 +1,56 @@
+version: "1.0.0"
+name: "Midday Architecture Library"
+
+nodeComponents:
+  frontend:
+    description: "Frontend applications"
+    icon: "Monitor"
+    color: "#3B82F6"
+    shape: "rectangle"
+    
+  backend:
+    description: "Backend services and APIs"
+    icon: "Server"
+    color: "#10B981"
+    shape: "rectangle"
+    
+  database:
+    description: "Data storage solutions"
+    icon: "Database"
+    color: "#8B5CF6"
+    shape: "rectangle"
+    
+  package:
+    description: "Shared packages and libraries"
+    icon: "Package"
+    color: "#F59E0B"
+    shape: "rectangle"
+    
+  external:
+    description: "External services and integrations"
+    icon: "Cloud"
+    color: "#6B7280"
+    shape: "rectangle"
+    
+  worker:
+    description: "Background workers and jobs"
+    icon: "Activity"
+    color: "#EF4444"
+    shape: "rectangle"
+
+edgeComponents:
+  api:
+    description: "API communication"
+    color: "#3B82F6"
+    
+  data_flow:
+    description: "Data flow"
+    color: "#10B981"
+    
+  event:
+    description: "Event-driven communication"
+    color: "#F59E0B"
+    
+  auth:
+    description: "Authentication/Authorization"
+    color: "#EF4444"
